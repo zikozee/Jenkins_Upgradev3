@@ -41,13 +41,6 @@ public class TestGreeter {
   }
 
   @Test
-  public void greetShouldIncludeGreetingMessageFailure() {
-    String someone = "World, Thanks you making me Happy";
-
-    assertThat(greeter.greet(someone).length(), is(lessThan(someone.length())));
-  }
-
-  @Test
   public void someSample() {
     assertThat(15, isA(Integer.class));
   }
